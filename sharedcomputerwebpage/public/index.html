@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="title">
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+        <div class="online"></div>
+      </div>
+      <div id="text">Take control of <span> your </span> my life</div>
+      <div id="panel">
+        <button id="notice" type="button" name="notice">Send Notice</button>
+        <div id="response"></div>
+        <button id="screensaver" type="button" name="screensaver">
+          Screensaver
+        </button>
+        <button id="turnOff" type="button" name="turnOff">Turn off</button>
+      </div>
+    </div>
+    <script>
+      window.addEventListener("load", initialize());
+    </script>
+  </body>
+</html>
