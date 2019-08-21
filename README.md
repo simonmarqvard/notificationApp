@@ -4,7 +4,7 @@
   Invasive notifications from the web
 </h3>
 
-![](name-of-giphy.gif)
+![](notify.gif)
 
 
 <p>
