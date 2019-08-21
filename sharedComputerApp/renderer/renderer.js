@@ -1,4 +1,4 @@
-const socket = require("socket.io-client")("http://smj470.itp.io:8081");
+const socket = require("socket.io-client")("http://smj470.itp.io:80");
 const robot = require("robotjs");
 const osxScreensaver = require("osx-screensaver");
 const { dialog } = require("electron").remote;
@@ -26,9 +26,9 @@ socket.on("mouseclickpos", data => {
 socket.on("notice", () => {
   const dialogOptions = {
     type: "question",
-    buttons: ["Sure", "Not Happening"],
+    buttons: ["One more hour", "Can't Busy", "Next Year"],
     message:
-      "Hey Simon you are still awake. You should turn your computer off?",
+      "Hey Simon you are still awake. You should turn your computer off? - Mom",
     alwaysOnTop: true,
     icon: "./images/sleep.png"
   };
