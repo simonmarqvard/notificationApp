@@ -28,3 +28,5 @@
   The sourcecode for the Electron application and webpage making up the project is split into separate folders.
 </p>
 
+<p> Electron.js | Sockets.js | Robot.js | Node.js </p>
+
